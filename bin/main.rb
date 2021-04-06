@@ -80,7 +80,7 @@ while session
   puts
   param1 = checklist.get_param1(arr1)
 
-  winner = checklist.check_win(param1, param2, @p1)
+  winner = checklist.check_win(param1, param2)
 
   if winner == true
     puts "Congratulations,#{@p1} wins the game!"
@@ -109,7 +109,7 @@ while session
   puts
   param2 = checklist.get_param2(arr2)
   param2 = param2.flatten
-  winner = checklist.check_win(param1, param2, @p2)
+  winner = checklist.check_win(param1, param2)
 
   next unless winner == true
 
