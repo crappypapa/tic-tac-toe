@@ -67,7 +67,6 @@ session = true
 turn = 0
 while session
   checklist = Logic.new
-
   puts "#{@p1}: Please choose a cell number "
   turn += 1
   select1 = false
