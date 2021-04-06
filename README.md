@@ -1,4 +1,4 @@
-# ![](https://img.shields.io/badge/Tic_Tac_Toe-blueviolet)
+# ![](https://img.shields.io/badge/Tic-Tac-Toe-blueviolet)
 
 # Tic Tac Toe
 
@@ -14,8 +14,8 @@
 To get a local copy up and running follow these simple example steps.
 
 
-- **Clone the repo by running `git clone` https://github.com/Deepakdanger/TIC_TAC_TOE.git Or download the zip folder**
-- **Run `cd` TIC_TAC_TOE in the terminal**
+- **Clone the repo by running `git clone` https://github.com/crappypapa/tic-tac-toe.git Or download the zip folder**
+- **Run `cd` tic-tac-toe in the terminal**
 - **Make sure you have ruby installed locally run `ruby -v`**
 - **To start the game run ```bin/main.rb``` in the terminal**
 
