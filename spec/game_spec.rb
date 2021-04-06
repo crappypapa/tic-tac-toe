@@ -76,3 +76,11 @@ describe Logic do
     end
   end
 
+  describe '#check_win' do
+    it 'returns true if player array has a winning combination' do
+      param = [1,4,7]
+      checklist.check_win(param, param)
+    end
+  end
+end
+
