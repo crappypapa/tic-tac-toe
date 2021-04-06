@@ -62,3 +62,17 @@ describe '#cell_check' do
   end
 end
 
+describe Logic do
+  checklist = Logic.new
+  describe '#get_param' do
+    it 'returns an empty array if player array has no combination that matches winning combinations' do
+      arr = [2,4,7,8]
+    expect(checklist.get_param1(arr)).to eql([])
+    end
+
+    it 'returns an array if player array has any combination that matches winning combination' do
+      arr = [1,2,4,7]
+      expect(checklist.get_param1(arr)).to eql([[1,4,7]])
+    end
+  end
+
