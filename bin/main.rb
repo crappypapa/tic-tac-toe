@@ -40,6 +40,7 @@ puts
 puts 'Let us get right to it!'
 puts
 puts
+# display_board(board)
 display_board(board)
 puts
 puts
